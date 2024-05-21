@@ -1,0 +1,78 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* Home section styling with background image */
+#home {
+    background-image: url('https://brightstandards.com/wp-content/uploads/2023/01/black-canyon-national-park-river-.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px 0;
+}
+
+#home .hero .content {
+    background: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent overlay to make text readable */
+    padding: 20px;
+    display: inline-block;
+}
+
+/* Activities section styling */
+#activities {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#activities .search {
+    margin-bottom: 20px;
+}
+
+#activities .search input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+#activities .search button {
+    padding: 10px 20px;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+/* Footer styling */
+footer {
+    background: #000000;
+    color: rgb(255, 254, 254);
+    text-align: center;
+    padding: 10px 0;
+}
